@@ -1,0 +1,161 @@
+/* media-queries.css */
+
+/* General styling for smaller devices */
+@media (max-width: 1200px) {
+    nav {
+        width: 80vw;
+    }
+    .first, .second {
+        margin: 0px 40px;
+    }
+    .first .secimg img, 
+    .second .secimg img {
+        width: 375px;
+    }
+    .secimg video {
+        width: 250px;
+    }
+    .third .secimg video {
+        top: 20px;
+        right: 50px;
+        width: 200px;
+    }
+    .imgboxtext {
+        font-size: 14px;
+    }
+    .first .first-text, 
+    .second .first-text {
+        margin-left: 16px;
+    }
+    #imgbox {
+        bottom: 120px;
+        left: 50px;
+    }
+}
+
+/* Tablet Portrait */
+@media (max-width: 992px) {
+    nav img {
+        width: 120px;
+        right: 40px;
+    }
+    nav button {
+        left: 40px;
+    }
+    nav select {
+        left: 20px;
+    }
+    #svg2 {
+        left: 30px;
+    }
+    .first, .second {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .secimg {
+        margin-bottom: 20px;
+    }
+    .text1 {
+        padding: 8px;
+    }
+    .BOLD {
+        font-size: 36px;
+    }
+    .underbold1 {
+        font-size: 20px;
+    }
+    .underbold2 {
+        font-size: 18px;
+        line-height: 50px;
+    }
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    .first, .second {
+        margin: 0 10px;
+    }
+    .first .secimg img, 
+    .second .secimg img {
+        width: 300px;
+    }
+    .secimg video {
+        width: 200px;
+    }
+    .third .secimg video {
+        top: 10px;
+        right: 20px;
+        width: 150px;
+    }
+    .imgboxtext {
+        font-size: 12px;
+    }
+    .BOLD {
+        font-size: 28px;
+    }
+    .underbold1 {
+        font-size: 16px;
+    }
+    .underbold2 {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    input[type="email"] {
+        padding-right: 80px;
+    }
+    .questionsholder div {
+        height: 10vh;
+        width: 80vw;
+    }
+}
+
+/* Mobile Portrait */
+@media (max-width: 576px) {
+    nav img {
+        width: 100px;
+    }
+    .first, .second {
+        margin: 0 5px;
+    }
+    .first .secimg img, 
+    .second .secimg img {
+        width: 250px;
+    }
+    .secimg video {
+        width: 150px;
+    }
+    .third .secimg video {
+        width: 120px;
+    }
+    .imgboxtext {
+        font-size: 10px;
+    }
+    .BOLD {
+        font-size: 24px;
+    }
+    .underbold1 {
+        font-size: 14px;
+    }
+    .underbold2 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .text1 {
+        padding: 4px;
+    }
+    .questionsholder div {
+        height: 8vh;
+        width: 90vw;
+    }
+    input[type="email"] {
+        padding-right: 60px;
+    }
+    .redbtn2 {
+        padding: 14px 16px;
+        font-size: 18px;
+    }
+}
