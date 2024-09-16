@@ -1,1 +1,1 @@
-Cloned the frontend or Netflix website using HTML & CSS
+Cloned the frontend of Netflix website using HTML & CSS
