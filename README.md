@@ -1,0 +1,1 @@
+Cloned the frontend or Netflix website using HTML & CSS
